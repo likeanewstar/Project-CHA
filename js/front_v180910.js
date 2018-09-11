@@ -177,34 +177,6 @@ function gnbUI() {
     });
 } // end of gnbUI
 
-//// GNB
-//function gnb() {
-//    $('#gnb > li').on('mouseenter', function() {
-//        $(this).find('.menu').show();
-//        $(this).parents('#header').stop().animate({'height':'206px'},300);
-//    });
-//    $('#gnb > li').on('mouseleave', function() {
-//        $(this).find('.menu').hide();
-//        $(this).parents('#header').stop().animate({'height':'156px'},300);
-//    });  
-//    $('.menu').on('mouseenter', function() {  
-//        $(this).show();
-//        $(this).parents('#header').stop().animate({'height':'206px'},300);
-//    });
-//    $('.menu').on('mouseleave', function() {
-//        $(this).hide();
-//        $(this).parents('#header').stop().animate({'height':'156px'},300);
-//    });
-//    $('#gnb > li  > a').on('focus', function() {
-//        $(this).parents('li').find('.menu').show();
-//        $(this).parents('#header').stop().animate({'height':'206px'},300);
-//    });
-//    $('.menu li:last-child a').on('focusout', function() {  
-//        $(this).parents('.menu').hide();
-//        $(this).parents('#header').stop().animate({'height':'156px'},300);
-//    });
-//} // end of gnb
-
 // GNB 서브페이지 표시 기능
 function checkCurrentMenu() {
     var dataMenu = $('body').attr('class').split(' ');
