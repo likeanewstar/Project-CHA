@@ -33,37 +33,6 @@
             </select>
             <a href="#" class="go" role="button" aria-label="클릭시 관련 사이트로 이동">이동</a>
         </div>
-        
-<!--
-        
-        
-        <div class="link">
-            <div>
-                <a href="#" title="클릭시 소속기관 링크 열기">소속기관</a>
-                <ul class="link-list list01">
-                    <li><a href="#">조선왕릉</a></li>
-                    <li><a href="#">세종대왕유적</a></li>
-                    <li><a href="#">경복궁</a></li>
-                    <li><a href="#">창덕궁</a></li>
-                    <li><a href="#">덕수궁</a></li>
-                    <li><a href="#">창경궁</a></li>
-                    <li><a href="#">종묘</a></li>
-                </ul>
-            </div>
-            <div>
-                <a href="#" title="클릭시 산하기관 링크 열기">산하기관</a>
-                <ul class="link-list list02">
-                    <li><a href="#">국립문화재연구소</a></li>
-                    <li><a href="#">문화재보존과학센터</a></li>
-                    <li><a href="#">한국전통문화대학교</a></li>
-                    <li><a href="#">국립고궁박물관</a></li>
-                    <li><a href="#">현충사관리소</a></li>
-                    <li><a href="#">칠백의총관리소</a></li>
-                    <li><a href="#">국립무형유산원</a></li>
-                </ul>
-            </div>
-        </div>
--->
         <div class="sns">
             <a href="#"><img src="/images/facebook.svg" alt="facebook icon"></a>
             <a href="#"><img src="/images/twitter.svg" alt="twitter icon"></a>

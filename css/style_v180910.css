@@ -34,7 +34,7 @@ body {font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Apple SD G
 #skip a:hover, #skip a:focus, #skip a:active {top: 0px; text-decoration: none}
     
 /* 헤더 영역 */
-#header {position: absolute; top: 0; width: 100%; border-top: 6px solid #307676; box-sizing: border-box; background: url(/images/header_bg.jpg) center top; /* 초기값 */height: 156px; z-index: 1000;}
+#header {position: absolute; top: 0; width: 100%; border-top: 6px solid #307676; box-sizing: border-box; background: url(../images/header_bg.jpg) center top; /* 초기값 */height: 156px; z-index: 1000;}
 #header .wrapper {box-sizing: border-box; padding: 15px 0 20px;}
 #header .logo {position: absolute; left: 50%; margin-left: -76px; z-index: 20;}
 #header .gnb-wrap {position: relative; text-align: center;}
@@ -56,19 +56,19 @@ body {font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Apple SD G
 #header .lnb-wrap {position: absolute; top: 0; right: 0; font-weight: 400;}
 #header .lnb-wrap .lnb li {display: inline-block; height: 27px; margin-left: 6px; line-height: 20px;}
 #header .lnb-wrap .lnb li a {font-size: 11px; text-transform: uppercase; color: #666;}
-#header .lnb-wrap .lnb li.sitemap {border-radius: 0 0 10px 10px; background: url(/images/more.png) 55px center no-repeat; background-color: #307676;}
+#header .lnb-wrap .lnb li.sitemap {border-radius: 0 0 10px 10px; background: url(../images/more.png) 55px center no-repeat; background-color: #307676;}
 #header .lnb-wrap .lnb li.sitemap a {display: inline-block; width: 78px; height: 20px; padding: 0 13px; box-sizing: border-box; color: #fff;}
 
 /* 탑 버튼 */
 .top {position:fixed; right: 0; bottom: 220px; opacity: 0.85; display: none; z-index: 25;}
 
 /* 푸터 영역 */
-#footer {height: 200px; font-size: 14px; color: #bbb; background-image: url(/images/footer_bg.jpg); background-size: cover; background: #222;}
+#footer {height: 200px; font-size: 14px; color: #bbb; background-image: url(../images/footer_bg.jpg); background-size: cover; background: #222;}
 #footer .wrapper {padding-top: 50px;}
 #footer address {margin: 24px 0 10px; font-style: normal;}
 #footer .copyright {display: inline-block; width: 100%;}
 #footer .fam-site {position: absolute; bottom: 0; right: 0; z-index: 3;}
-#footer .fam-site select {position: relative; top: -2px; width: 180px; height: 34px; padding-left: 12px; border: none 0; font-size: 14px; color: #444; letter-spacing: -1px; background: url(/images/link_arrow_down.png) 95% center no-repeat; background-color: #fff;}
+#footer .fam-site select {position: relative; top: -2px; width: 180px; height: 34px; padding-left: 12px; border: none 0; font-size: 14px; color: #444; letter-spacing: -1px; background: url(../images/link_arrow_down.png) 95% center no-repeat; background-color: #fff;}
 #footer .fam-site .go {display: inline-block; box-sizing: border-box; height: 34px; line-height: 34px; padding: 0 14px; color: #fff; background: #307676;}
 #footer .sns {position: absolute; top: 50px; right: 0;}
 #footer .sns a {display: inline-block; margin-left: 5px; width: 32px; height: 32px; color: #222; opacity: 1.0; transition: all 0.3s}
@@ -81,9 +81,9 @@ body {font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Apple SD G
 .main #visual .box {position: relative;}
 .main #visual .slide {position: relative; height: 723px; overflow: hidden;}
 .main #visual .slide li {position: absolute; top: 0; left: 0; width: 100%; height: 723px; color: #242424;}
-.main #visual .slide li:first-child {color: #fff; background: url(/images/visual01.jpg) center center no-repeat; background-size: cover;}
-.main #visual .slide li:nth-child(2) {background: url(/images/visual02.jpg) center center no-repeat; background-size: cover;}
-.main #visual .slide li:nth-child(3) {background: url(/images/visual03.jpg) center center no-repeat; background-size: cover;}
+.main #visual .slide li:first-child {color: #fff; background: url(../images/visual01.jpg) center center no-repeat; background-size: cover;}
+.main #visual .slide li:nth-child(2) {background: url(../images/visual02.jpg) center center no-repeat; background-size: cover;}
+.main #visual .slide li:nth-child(3) {background: url(../images/visual03.jpg) center center no-repeat; background-size: cover;}
 .main #visual .slide li.on {animation: slide-on 3s ease 0s 1 normal forwards;}
 .main #visual .slide li.off {animation: slide-off 3s ease 0s 1 normal forwards;}
 .main #visual .slide li .copy_wrap {position: absolute; top: 50%; transform: translate(0,-50%); width: 100%; font-family: 'Nanum Myeongjo', serif; text-align: center;}
@@ -103,7 +103,7 @@ body {font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Apple SD G
 
 /* 검색 서비스 */
 #search .tit {padding-top: 100px;}
-#search input.text {display: inline-block; width: 655px; height: 74px; padding: 0 12px; border: 4px solid #751e12; font-size: 18px; color: #000; background-color: transparent; background: url(/images/tri.png) 620px center no-repeat; box-sizing: border-box;}
+#search input.text {display: inline-block; width: 655px; height: 74px; padding: 0 12px; border: 4px solid #751e12; font-size: 18px; color: #000; background-color: transparent; background: url(../images/tri.png) 620px center no-repeat; box-sizing: border-box;}
 #search input.submit {display: inline-block; width: 60px; height: 74px; margin-left: -6px; border: none 0; line-height: 74px; vertical-align: top; font-size: 15px; color: #fff; background-color: #751e12;}
 
 /* 문화유산정보 */
@@ -149,7 +149,7 @@ body {font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Apple SD G
 
 /* 홍보영상 */
 #video {position: relative;}
-#video .video-wrap {position: relative; height: 600px; background: url(/images/video_preview_main.jpg) center center; background-size: cover;}
+#video .video-wrap {position: relative; height: 600px; background: url(../images/video_preview_main.jpg) center center; background-size: cover;}
 #video .play {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 #video .popup-vid {display: none; position: fixed; top: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); z-index: 10;}
 #video .popup-vid iframe {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
@@ -170,7 +170,7 @@ body {font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Apple SD G
 .sub #container {padding-top: 20px; text-align: center;}
 .sub #container .path {float: right;}
 .sub #container .path li {display: inline-block; height: 14px; padding-left: 20px; font-size: 13px;}
-.sub #container .path li + li {background: url(/images/path_mark.png) 5px center no-repeat;}
+.sub #container .path li + li {background: url(../images/path_mark.png) 5px center no-repeat;}
 .sub #container .path li:last-child a {font-weight: 400;}
 .sub #container h1.tit {width: 100%; padding: 68px 0 40px; font-family: 'Nanum Myeongjo', serif; font-size: 40px; font-weight: 600; color: #333;}
 .sub #container ul.sub {margin-bottom: 77px;}
@@ -189,12 +189,12 @@ body {font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Apple SD G
 
 
 /* 서브 - 일반현황 */
-.general #visual {background: url(/images/sub_visual_bg.jpg) center center no-repeat; background-size: cover;}
+.general #visual {background: url(../images/sub_visual_bg.jpg) center center no-repeat; background-size: cover;}
 .general #container .sub-title .mark-front {top: 52px; left: 252px;}
 .general #container .sub-title .mark-back {top: 63px; right: 258px;}
 
 .general #container .video-visual {position: relative;}
-.general #container .video-visual .video {text-indent: -9999px; background: url(/images/video_preview_sub.jpg) center center no-repeat; background-size: cover; height: 500px; margin-bottom: 55px;}
+.general #container .video-visual .video {text-indent: -9999px; background: url(../images/video_preview_sub.jpg) center center no-repeat; background-size: cover; height: 500px; margin-bottom: 55px;}
 .general #container .video-visual .play {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 .general #container .video-wrap .desc {text-align: justify; margin-bottom: 110px;}
 .general #container .video-wrap .desc span {display: inline-block; font-size: 15px; width: 30%; line-height: 1.6em; letter-spacing: -1px; vertical-align: top;}
@@ -215,7 +215,7 @@ body {font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Apple SD G
 .general #container .purpose .lst li h5.tit {font-size: 18px; color: #444; margin-bottom: 15px;}
 .general #container .purpose .lst li h5.tit:before {content: ''; display: block; margin: 30px auto; width: 30px; height: 1px; background-color: #c2c2c2;}
 .general #container .purpose .lst li .txt {font-size: 15px; line-height: 1.4em;}
-.general #container .role .role-visual {position: relative; background: url(/images/role_bg.jpg) center center no-repeat; background-size: cover; height: 440px; padding-top: 155px; box-sizing: border-box;}
+.general #container .role .role-visual {position: relative; background: url(../images/role_bg.jpg) center center no-repeat; background-size: cover; height: 440px; padding-top: 155px; box-sizing: border-box;}
 .general #container .role .role-visual .copy {font-family: 'Nanum Myeongjo', serif; font-size: 28px; line-height: 1.7em; color: #fff;}
 .general #container .role .role-con .lst {margin: 130px 0;}
 .general #container .role .role-con .lst li {margin-bottom: 51px;}
@@ -227,7 +227,7 @@ body {font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Apple SD G
 .general #container .role .role-con .lst li .desc {width: 68%; font-size: 15px; line-height: 1.6em; text-align: justify; padding-top: 9px; box-sizing: border-box;}
 
 /* 서브 - 한문화재한지킴이 */
-.guard #visual {background: url(/images/sub_visual_bg2.jpg) center center no-repeat; background-size: cover;}
+.guard #visual {background: url(../images/sub_visual_bg2.jpg) center center no-repeat; background-size: cover;}
 .guard #container .sub-title .mark-front {top: 52px; left: 284px;}
 .guard #container .sub-title .mark-back {top: 63px; right: 290px;}
 
@@ -238,18 +238,18 @@ body {font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Apple SD G
 .guard #container .type ul li p.icon {margin-bottom: 17px;}
 .guard #container .type ul li h4.title {margin-bottom: 13px; font-size: 19px;}
 .guard #container .type ul li .txt {width: 240px; height: 63px; padding-top: 5px; box-sizing: border-box;}
-.guard #container .type ul li:first-child .txt {background-image: url(/images/type_bg01.png);}
-.guard #container .type ul li:nth-child(2) .txt {background-image: url(/images/type_bg02.png);}
-.guard #container .type ul li:nth-child(3) .txt {background-image: url(/images/type_bg03.png);}
+.guard #container .type ul li:first-child .txt {background-image: url(../images/type_bg01.png);}
+.guard #container .type ul li:nth-child(2) .txt {background-image: url(../images/type_bg02.png);}
+.guard #container .type ul li:nth-child(3) .txt {background-image: url(../images/type_bg03.png);}
 .guard #container .type ul li:first-child .txt h4.title {color: #254f7b;}
 .guard #container .type ul li:nth-child(2) .txt h4.title {color: #236675;}
 .guard #container .type ul li:nth-child(3) .txt h4.title {color: #008483;}
 .guard #container .work ul {width: 80%; margin: 0 auto 220px;}
 .guard #container .work ul li {width: 100%; height: 218px; margin-bottom: 54px; padding-left: 325px; box-sizing: border-box;	text-align: justify; background-repeat: no-repeat; background-position: left center;}
-.guard #container .work ul li:first-child { background-image: url(/images/con01.jpg); }
-.guard #container .work ul li:nth-child(2) { background-image: url(/images/con02.jpg); }
-.guard #container .work ul li:nth-child(3) { background-image: url(/images/con03.jpg); }
-.guard #container .work ul li:nth-child(4) { background-image: url(/images/con04.jpg); }
+.guard #container .work ul li:first-child { background-image: url(../images/con01.jpg); }
+.guard #container .work ul li:nth-child(2) { background-image: url(../images/con02.jpg); }
+.guard #container .work ul li:nth-child(3) { background-image: url(../images/con03.jpg); }
+.guard #container .work ul li:nth-child(4) { background-image: url(../images/con04.jpg); }
 .guard #container .work ul li h4.tit {margin-bottom: 30px; font-size: 26px; color: #444;}
 .guard #container .work ul li h4.tit:before {content: ''; display: block; width: 27px; height: 3px; margin-bottom: 9px; background-color: #2f566e;}
 .guard #container .work ul li .desc {line-height: 1.5em;}
